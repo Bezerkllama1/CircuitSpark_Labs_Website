@@ -1,0 +1,1 @@
+This is a buisness website. we are building it for out company CircuitSpark Crates, if that was not already obvious. please use branches to make any edits. our main problems are building secure login and checkout pages php and Java, any/all help desperatly needed and appreciated.
