@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart Page</title>
-    <link rel="stylesheet" href="cartpage.css">
+    <link rel="stylesheet" href="cart.css">
     <script src="cart.js"></script>
 </head>
 <body>
@@ -21,19 +21,22 @@
     </header>
     <main>
         <ul id="products">
-            <li data-productid="1">Product 1 <button class="add-to-cart">Add to Cart</button></li>
-            <li data-productid="2">Product 2 <button class="add-to-cart">Add to Cart</button></li>
-            <li data-productid="3">Product 3 <button class="add-to-cart">Add to Cart</button></li>
+            <li data-productid="1">Product 1 <button class="remove-from-cart">Add to Cart</button></li>
+            <li data-productid="2">Product 2 <button class="remove-from-cart">Add to Cart</button></li>
+            <li data-productid="3">Product 3 <button class="remove-from-cart">Add to Cart</button></li>
         </ul>
-        
+         
         <ul id="cart">
             <!-- Cart items will be added here dynamically -->
         </ul>
         <button id="checkout-button">Proceed to Checkout</button>
     </main>
+    <div id="leave">
+        <a class="checkout" href="checkout.html">Checkout</a>
+    </div>
     <footer>
-        <p>&copy; 2023 CircuitSpark Labs. All rights reserved.</p>
+        <p>&copy; 2025 CircuitSpark Labs. All rights reserved.</p>
     </footer>
-    <script src="scripts.js"></script>
+    <script src="Cart.js"></script>
 </body>
 </html>
